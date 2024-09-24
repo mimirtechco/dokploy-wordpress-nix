@@ -1,4 +1,5 @@
 [phases.setup]
+
 nixPkgs = [
     '...',
     'nginx',
@@ -25,14 +26,4 @@ nixPkgs = [
     'php82Extensions.xml',
     'php82Extensions.zip',
     'php82Extensions.tokenizer',
-]
-
-[phases.build]
-commands = [
-    '...'
-]
-
-[phases.start]
-commands = [
-    '...'
 ]
