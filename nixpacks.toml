@@ -6,12 +6,6 @@ nixPkgs = [
     'nginx',
     'php',
     'php.withExtensions (pe: pe.enabled ++ [pe.all.curl pe.all.dom pe.all.libxml pe.all.openssl pe.all.zip])',
-    'libmysqlclient',
-    'phpPackages.composer',
-    'phpExtensions.curl',
-    'phpExtensions.dom',
-    'phpExtensions.libxml',
-    'phpExtensions.openssl',
-    'phpExtensions.zip'
+
 
 ]
