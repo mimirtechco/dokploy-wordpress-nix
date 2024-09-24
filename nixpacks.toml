@@ -1,6 +1,6 @@
 providers = ['php']
 
-# [phases.setup]
+[setup]
 
 nixPkgs = [
     'php81.withExtensions (pe: pe.enabled ++ [pe.all.curl pe.all.json pe.all.dom pe.all.libxml pe.all.openssl pe.all.zip])',
