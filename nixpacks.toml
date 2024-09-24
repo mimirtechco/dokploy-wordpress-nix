@@ -1,1 +1,10 @@
 providers = ['php']
+
+[phases.setup]
+
+nixPkgs = [
+    '...',
+    'nginx',
+    'php82',
+
+]
