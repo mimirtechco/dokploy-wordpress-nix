@@ -1,0 +1,38 @@
+[phases.setup]
+nixPkgs = [
+    '...',
+    'nginx',
+    'php82',
+    'php82Extensions.mysqlnd',
+    'php82Extensions.curl',
+    'php82Extensions.dom',
+    'php82Extensions.exif',
+    'php82Extensions.fileinfo',
+    'php82Extensions.ftp',
+    'php82Extensions.gd',
+    'php82Extensions.iconv',
+    'php82Extensions.intl',
+    'php82Extensions.json',
+    'php82Extensions.mbstring',
+    'php82Extensions.opcache',
+    'php82Extensions.pdo',
+    'php82Extensions.pdo_mysql',
+    'php82Extensions.hash',
+    'php82Extensions.openssl',
+    'php82Extensions.pcre',
+    'php82Extensions.simplexml',
+    'php82Extensions.sockets',
+    'php82Extensions.xml',
+    'php82Extensions.zip',
+    'php82Extensions.tokenizer',
+]
+
+[phases.build]
+commands = [
+    '...'
+]
+
+[phases.start]
+commands = [
+    '...'
+]
