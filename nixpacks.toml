@@ -1,9 +1,10 @@
-providers = ['php']
+providers = ['php81']
 
 # [phases.setup]
 
 nixPkgs = [
     '...',
+    'php80.withExtensions (pe: pe.enabled ++ [pe.all.curl pe.all.json pe.all.dom pe.all.libxml pe.all.openssl pe.all.zip])',
     'wordpress'
 
 ]
