@@ -1,4 +1,4 @@
-providers = ['php', 'nginx']
+providers = ['php']
 
 [phases.setup]
 
