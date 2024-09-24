@@ -17,7 +17,6 @@ nixLibs = [
     'libintl',
     'libicu',
     'libedit',
-    'libcurl',
     'libssl',
     'libpcre',
     'jsoncpp',
