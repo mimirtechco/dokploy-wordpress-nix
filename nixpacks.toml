@@ -1,3 +1,5 @@
+providers = ['php82', 'nginx']
+
 [phases.setup]
 
 nixPkgs = [
