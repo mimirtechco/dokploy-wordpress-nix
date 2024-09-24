@@ -6,6 +6,5 @@ nixPkgs = [
     '...',
     'nginx',
     'php81',
-    'composer'
 
 ]
