@@ -3,9 +3,9 @@ providers = ['php']
 [phases.setup]
 
 nixPkgs = [
-    '...',
-    'php81.withExtensions (pe: pe.enabled ++ [pe.all.curl pe.all.dom pe.all.libxml pe.all.openssl pe.all.zip])',
     'nginx',
+    'php81',
+    'php81.withExtensions (pe: pe.enabled ++ [pe.all.curl pe.all.dom pe.all.libxml pe.all.openssl pe.all.zip])',
     'libmysqlclient',
     'php81Packages.composer',
     'php81Extensions.curl',
