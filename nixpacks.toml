@@ -1,6 +1,6 @@
 providers = ['php']
 
-# [phases.setup]
+[phases.setup]
 
 nixPkgs = [
     '...',
