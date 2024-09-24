@@ -1,4 +1,4 @@
-# providers = ['php']
+providers = ['php']
 
 # [phases.setup]
 
