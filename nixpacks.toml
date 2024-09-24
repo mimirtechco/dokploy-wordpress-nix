@@ -2,50 +2,10 @@ providers = ['php']
 
 [phases.setup]
 
-nixLibs = [
-    'zlib',
-    'libpng',
-    'libjpeg',
-    'libwebp',
-    'libxpm',
-    'libxslt',
-    'libxml2',
-    'libzip',
-    'libmcrypt',
-    'libgd',
-    'libiconv',
-    'libintl',
-    'libicu',
-    'libedit',
-    'libssl',
-    'libpcre',
-    'jsoncpp',
-]
-
 nixPkgs = [
     '...',
     'nginx',
     'php81',
-    'php81Extensions.mysqlnd',
-    'php81Extensions.curl',
-    'php81Extensions.dom',
-    'php81Extensions.exif',
-    'php81Extensions.fileinfo',
-    'php81Extensions.ftp',
-    'php81Extensions.gd',
-    'php81Extensions.iconv',
-    'php81Extensions.intl',
-    'php81Extensions.json',
-    'php81Extensions.mbstring',
-    'php81Extensions.opcache',
-    'php81Extensions.pdo',
-    'php81Extensions.pdo_mysql',
-    # 'php82Extensions.hash',
-    'php81Extensions.openssl',
-    'php81Extensions.pcre',
-    'php81Extensions.simplexml',
-    'php81Extensions.sockets',
-    'php81Extensions.xml',
-    'php81Extensions.zip',
-    'php81Extensions.tokenizer',
+    'composer'
+
 ]
