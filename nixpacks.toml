@@ -4,14 +4,14 @@ providers = ['php']
 
 nixPkgs = [
     'nginx',
-    'php81',
-    'php81.withExtensions (pe: pe.enabled ++ [pe.all.curl pe.all.dom pe.all.libxml pe.all.openssl pe.all.zip])',
+    'php',
+    'php.withExtensions (pe: pe.enabled ++ [pe.all.curl pe.all.dom pe.all.libxml pe.all.openssl pe.all.zip])',
     'libmysqlclient',
-    'php81Packages.composer',
-    'php81Extensions.curl',
-    'php81Extensions.dom',
-    'php81Extensions.libxml',
-    'php81Extensions.openssl',
-    'php81Extensions.zip'
+    'phpPackages.composer',
+    'phpExtensions.curl',
+    'phpExtensions.dom',
+    'phpExtensions.libxml',
+    'phpExtensions.openssl',
+    'phpExtensions.zip'
 
 ]
