@@ -2,6 +2,27 @@ providers = ['php']
 
 [phases.setup]
 
+nixLibs = [
+    'zlib',
+    'libpng',
+    'libjpeg',
+    'libwebp',
+    'libxpm',
+    'libxslt',
+    'libxml2',
+    'libzip',
+    'libmcrypt',
+    'libgd',
+    'libiconv',
+    'libintl',
+    'libicu',
+    'libedit',
+    'libcurl',
+    'libssl',
+    'libpcre',
+    'jsoncpp',
+]
+
 nixPkgs = [
     '...',
     'nginx',
